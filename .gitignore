@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.sass-cache
+.codekit-cache
+config.codekit
+node_modules/
+npm-debug.log
+ghost-dev.db
+content/images/*
+ecosystem.json
