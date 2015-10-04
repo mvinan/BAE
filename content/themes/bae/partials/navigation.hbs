@@ -1,0 +1,17 @@
+<div class="Nav">
+
+  <figure class="Nav-brand">
+    <img src="{{@blog.logo}}" alt="{{@blog.title}}"/>
+  </figure>
+
+  <a href="#" class="Nav-icon btn btn-default">
+    <i class="fa fa-bars"></i> MENÚ
+  </a>
+
+  <ul class="Nav-list">
+    {{#foreach navigation}}
+      <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>
+    {{/foreach}}
+  </ul>
+
+</div>
